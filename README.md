@@ -11,6 +11,7 @@ Evaluated the dataset using Logistic Regression, Support Vector Machines (SVM) w
 | SVM (Sigmoid Kernel)| 0.8500     |    0.8821 | 0.8440 |
 | SVM (Polynomial Kernel)| 0.4500 | 0.4750 | 0.3513 |
 | K-Nearest Neighbors (K=3) | 0.6500 | 0.8031	| 0.6173 |
+![Logistic_Regression](images/Logistic_Regression.png)
 
 The dataset appears to contain strong linear discriminative patterns, which is why Logistic Regression and Linear SVM achieve perfect scores. These models thrive when data is well-separated in a linear fashion, and the performance drops with non-linear kernels.
 The relatively high precision of KNN suggests it's able to identify positive instances well, but its lower F1-score implies challenges with recall likely due to local noise or overlaps in feature space.<br />
