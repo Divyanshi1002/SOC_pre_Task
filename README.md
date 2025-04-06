@@ -11,9 +11,12 @@ Evaluated the dataset using Logistic Regression, Support Vector Machines (SVM) w
 | SVM (Sigmoid Kernel)| 0.8500     |    0.8821 | 0.8440 |
 | SVM (Polynomial Kernel)| 0.4500 | 0.4750 | 0.3513 |
 | K-Nearest Neighbors (K=3) | 0.6500 | 0.8031	| 0.6173 |
-![Logistic_Regression](images/Logistic_Regression.png)
 
-The dataset appears to contain strong linear discriminative patterns, which is why Logistic Regression and Linear SVM achieve perfect scores. These models thrive when data is well-separated in a linear fashion, and the performance drops with non-linear kernels.
+![Logistic_Regression](images/Logistic_Regression.png)
+![SVM_Linear](images/SVM_Linear.png)
+![SVM_poly](images/SVM_poly.png)
+
+<br />The dataset appears to contain strong linear discriminative patterns, which is why Logistic Regression and Linear SVM achieve perfect scores. These models thrive when data is well-separated in a linear fashion, and the performance drops with non-linear kernels.
 The relatively high precision of KNN suggests it's able to identify positive instances well, but its lower F1-score implies challenges with recall likely due to local noise or overlaps in feature space.<br />
 
 ## TASK-2:Top 5 Feature Identification<br />
@@ -23,6 +26,8 @@ Applied three different feature selection techniques to identify the most import
 | Univariate Feature Selection (UFS)   | ['alpha10', 'alpha53', 'delta18', 'delta26', 'gamma30']| 
 | Recursive Feature Elimination (RFE)  |['alpha6', 'beta10', 'delta11', 'delta60', 'gamma24'] |   
 | Principal Component Analysis (PCA)|['delta55', 'delta62', 'delta23', 'delta10', 'delta52']    |  
+
+![Top eeg channels](images/Top eeg channels.png)
 
 | Channel ID  |Frequency  |  Reason for Importance|
 | ------------- |:-------------:|  ---------:|
