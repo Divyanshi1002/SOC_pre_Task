@@ -32,4 +32,4 @@ Applied three different feature selection techniques to identify the most import
 | Channel ID  |Frequency  |  Reason for Importance|
 | ------------- |:-------------:|  ---------:|
 | 10  | 3| Strong marker across alpha, beta, and delta bands — consistently selected by all methods (UFS, RFE, PCA), indicating high discriminative power. |
-| 6, 11, 18, 23, 24, 26, 30, 52, 53, 55, 60, 62 |1 |   Selected once — potential biomarkers depending on band-specific activity or localized brain functions.
+| 6, 11, 18, 23, 24, 26, 30, 52, 53, 55, 60, 62 |1 |   Selected once — potential biomarkers depending on localized brain functions.
