@@ -1,8 +1,8 @@
 # SOC_pre_Task
 
-##TASK-1:Classification Results and Interpretation<br />
-Evaluated the dataset using Logistic Regression, Support Vector Machines (SVM) with various kernels, and K-Nearest Neighbors (KNN). Below are the performance metrics for each model:
- Colons can be used to align columns.\n
+## TASK-1:Classification Results and Interpretation<br />
+Evaluated the dataset using Logistic Regression, Support Vector Machines (SVM) with various kernels, and K-Nearest Neighbors (KNN). Below are the performance metrics for each model:<br />
+ Colons can be used to align columns.<br />
 
 | Model    | Accuracy	          | Precision  | F1 Score|
 | ------------- |:-------------:| ---------:|:-------------:
@@ -13,12 +13,10 @@ Evaluated the dataset using Logistic Regression, Support Vector Machines (SVM) w
 | K-Nearest Neighbors (K=3) | 0.6500 | 0.8031	| 0.6173 |
 
 The dataset appears to contain strong linear discriminative patterns, which is why Logistic Regression and Linear SVM achieve perfect scores. These models thrive when data is well-separated in a linear fashion, and the performance drops with non-linear kernels.
-The relatively high precision of KNN suggests it's able to identify positive instances well, but its lower F1-score implies challenges with recall likely due to local noise or overlaps in feature space.\n
+The relatively high precision of KNN suggests it's able to identify positive instances well, but its lower F1-score implies challenges with recall likely due to local noise or overlaps in feature space.<br />
 
-##TASK-2:Top 5 Feature Identification\n
-Applied three different feature selection techniques to identify the most important contributors to classification:
-Method
-Top 5 Features
+## TASK-2:Top 5 Feature Identification<br />
+Applied three different feature selection techniques to identify the most important contributors to classification:<br />
 | Method  |Top 5 Features   | 
 | ------------- |:-------------:| 
 | Univariate Feature Selection (UFS)   | ['alpha10', 'alpha53', 'delta18', 'delta26', 'gamma30']| 
