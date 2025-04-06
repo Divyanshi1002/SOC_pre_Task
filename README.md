@@ -16,8 +16,8 @@ Evaluated the dataset using Logistic Regression, Support Vector Machines (SVM) w
 ![SVM_Linear](images/SVM_Linear.png)
 ![SVM_poly](images/SVM_poly.png)
 
-<br />The dataset appears to contain strong linear discriminative patterns, which is why Logistic Regression and Linear SVM achieve perfect scores. These models thrive when data is well-separated in a linear fashion, and the performance drops with non-linear kernels.
-The relatively high precision of KNN suggests it's able to identify positive instances well, but its lower F1-score implies challenges with recall likely due to local noise or overlaps in feature space.<br />
+<br />The dataset appears to contain strong linear discriminative patterns, which is why Logistic Regression and Linear SVM achieve perfect scores as comapred to poly or rbf kernal. These models thrive when data is well-separated in a linear fashion, and the performance drops with non-linear kernels.
+The high precision of KNN suggests it's able to identify positive instances well, but its lower F1-score shows challenges with recall due to local overlaps in feature space.<br />
 
 ## TASK-2:Top 5 Feature Identification<br />
 Applied three different feature selection techniques to identify the most important contributors to classification:<br />
@@ -27,7 +27,7 @@ Applied three different feature selection techniques to identify the most import
 | Recursive Feature Elimination (RFE)  |['alpha6', 'beta10', 'delta11', 'delta60', 'gamma24'] |   
 | Principal Component Analysis (PCA)|['delta55', 'delta62', 'delta23', 'delta10', 'delta52']    |  
 
-![Top eeg channels](images/Top eeg channels.png)
+![EEG_channels](images/Top_eeg_channels.png)
 
 | Channel ID  |Frequency  |  Reason for Importance|
 | ------------- |:-------------:|  ---------:|
